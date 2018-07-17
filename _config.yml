@@ -4,12 +4,12 @@
 # ---------------------------------------------------------------
 
 # Site
-title: NexT
-subtitle:
+title: Mr-Better
+subtitle: good good study, day day up
 description:
-author: John Doe
+author: mr_better
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
-language: en
+language: zh-Hans
 date_format: '%Y-%m-%d'
 
 # URL
@@ -118,7 +118,7 @@ index_with_subtitle: false
 # When running the site in a subdirectory (e.g. domain.tld/blog), remove the leading slash (/archives -> archives)
 menu:
   home: /
-  #categories: /categories/
+  categories: /categories/
   #about: /about/
   archives: /archives/
   tags: /tags/
@@ -175,32 +175,35 @@ font:
     # external: true will load this font family from host.
     external: true
     family: Lato
-
+    size: 18
+    
   # Font settings for Headlines (h1, h2, h3, h4, h5, h6)
   # Fallback to `global` font settings.
   headings:
     external: true
     family:
-
+    size: 30
+    
   # Font settings for posts
   # Fallback to `global` font settings.
   posts:
     external: true
     family:
-
+    size: 18
+    
   # Font settings for Logo
   # Fallback to `global` font settings.
   # The `size` option use `px` as unit
   logo:
     external: true
     family:
-    size:
+    size: 30
 
   # Font settings for <code> and code blocks.
   codes:
     external: true
     family:
-    size:
+    size: 16
 
 
 
